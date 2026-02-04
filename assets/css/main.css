@@ -37,6 +37,36 @@
   --nav-dropdown-hover-color: #870d0d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
+/* ===== FIX MENU MOBILE ===== */
+@media (max-width: 1199px) {
+
+  .navmenu {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: var(--nav-mobile-background-color);
+    padding: 60px 20px;
+    z-index: 9997;
+  }
+
+  body.mobile-nav-active .navmenu {
+    display: block;
+  }
+
+  .navmenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mobile-nav-toggle {
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 9998;
+  }
+}
+
+
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
