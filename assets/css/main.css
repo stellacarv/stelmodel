@@ -19,29 +19,29 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #000000; /* Background color for the entire website, including individual sections */
-  --default-color: #e7f2f7; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ff8de6; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #161616; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #090909; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #000000; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #d2d2d2; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #ff8de6; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #000000; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #051117; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-color: #000000;  /* The default color of the main navmenu links */
+  --nav-hover-color: #870d0d; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #000000; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #e7f2f7; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ff8de6; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #870d0d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #142027;
-  --surface-color: #ff8de6;
+  --background-color: #000000;
+  --surface-color: #870d0d;
 }
 
 .dark-background {
@@ -439,7 +439,7 @@ h6 {
 
   .navmenu .dropdown>.dropdown-active {
     display: block;
-    background-color: rgba(33, 37, 41, 0.03);
+    background-color: rgba(255, 255, 255, 0.03);
   }
 
   .mobile-nav-active {
@@ -460,7 +460,7 @@ h6 {
     position: fixed;
     overflow: hidden;
     inset: 0;
-    background: rgba(33, 37, 41, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     transition: 0.3s;
   }
 
@@ -2698,7 +2698,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-box {
-  background-color: #3a0e31;
+  background-color: #000000;
   padding: 3rem;
   border-radius: 1rem;
   height: 100%;
@@ -2779,11 +2779,11 @@ section,
 }
 
 .contact .contact-form {
-  background-color: #3a0e31;
+  background-color: #ffffff;
   padding: 3rem;
   border-radius: 1rem;
   height: 100%;
-  box-shadow: #3a0e31;
+  box-shadow: #000000;
 }
 
 @media (max-width: 992px) {
@@ -2829,7 +2829,7 @@ section,
 }
 
 .contact .contact-form .btn {
-  background-color: #ff8de6;
+  background-color: #000000;
   color: var(--contrast-color);
   padding: 1rem 2rem;
   border-radius: 2rem;
@@ -2844,7 +2844,7 @@ section,
 }
 
 .contact .contact-form .btn:hover {
-  background-color: #88036b;
+  background-color: #383838;
 }
 
 /*--------------------------------------------------------------
@@ -2864,7 +2864,7 @@ section,
 
 .skill-item h3 {
     /* Cor principal para o título */
-    color: #d167d4; /* Cinza escuro para boa legibilidade */
+    color: #870d0d; /* Cinza escuro para boa legibilidade */
     
     /* Define o peso e tamanho da fonte */
     font-size: 1.125rem; /* ~18px */
@@ -2877,7 +2877,7 @@ section,
 /* 3. Estilizando o Valor (Ex: Castanho escuro) */
 .skill-item p {
     /* Cor secundária para o valor */
-    color: #718096; /* Um cinza mais claro */
+    color: #8f8f8f; /* Um cinza mais claro */
     
     /* Remove margens padrão */
     margin: 0;
@@ -2886,7 +2886,7 @@ section,
 /* 4. Efeito ao passar o mouse (Opcional, mas recomendado) */
 .skill-item:hover {
     /* Altera a cor de fundo ao passar o mouse */
-    background-color: #51144f; /* Um cinza claro sutilmente diferente */
+    background-color: #ffffff; /* Um cinza claro sutilmente diferente */
     
     /* Sobe o item levemente */
     transform: translateY(-2px);
