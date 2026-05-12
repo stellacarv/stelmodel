@@ -42,14 +42,14 @@
 
 .light-background {
   --background-color: #575757;
-  --surface-color: #6a6a6a;
+  --surface-color: #ffffff;
 }
 
 .dark-background {
   --background-color: #0b1419;
   --default-color: #ffffff;
-  --heading-color: ##6a6a6a;
-  --surface-color: #252525;
+  --heading-color: #252525;
+  --surface-color: #ffffff;
   --contrast-color: #ffffff;
 }
 
